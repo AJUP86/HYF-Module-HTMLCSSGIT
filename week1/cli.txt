@@ -1,0 +1,20 @@
+How do i create a hidden file or folder?
+to create a hidden file or folder you need to put a (.) just before the name of the file or folder. 
+e.g. for new hidden folder: % mkdir .nameofthefolder
+     for new hidden file: % cd whereyouwantthefile % touch .nameofthefile
+
+How do i display it en the CLI?
+You have to go to the folder that contains the file or folder (cd thecontainer) then you use comand line (ls -a) to display all files visible and hidden
+
+How do i create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun ? 
+
+To create multiple directories at one, we use  the command "% mkdir -p" and/begin/to/create/folders/in/one/single/command
+
+How do i append a message to a file, whitout a newline character, so the output would be: first message
+second message?
+
+In order to append a message to a file, the command "echo -p" will let you do so without a newline
+e.g. % echo -p The message >> thetextfile.txt 
+">>" the double greater than sign means to write something new to a text file, only on greater than sign will over write the new message over the old one
+
+

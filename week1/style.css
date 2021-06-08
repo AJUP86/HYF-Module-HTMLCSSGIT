@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-image: url(background.png);
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+
+  height: 736px;
+  margin: auto;
+  padding: auto;
+}
+header .profile {
+  align-items: center;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+header .profile .tittle {
+  text-align: center;
+}
+header img {
+  width: 60%;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+header .nav {
+  background: rgb(0, 0, 0, 0.5);
+  list-style: none;
+  display: flex;
+  padding: 2em 1em;
+  align-content: center;
+}
+.nav li {
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  padding: 0.5em;
+  margin: 1px auto;
+}
+.nav li:hover {
+  background: rgb(85, 85, 85);
+  transition: 0.4s;
+}
+.nav li a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.nav li a:hover {
+  background: rgb(85, 85, 85);
+  transition: 0.4s;
+}
+footer h5 {
+  text-align: center;
+}
+
+main {
+  width: 100%;
+}
+section {
+  height: 736px;
+}
+.section1 {
+  background-image: url(section1.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 3px solid rgba(0, 0, 255, 0);
+}
+.section1 h1 {
+  text-align: center;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(85, 85, 85);
+  font-size: 1.8em;
+}
+.section1 h2 {
+  text-align: center;
+  color: rgb(85, 85, 85);
+  padding-bottom: 10px;
+}
+
+.fa-arrow-up {
+  position: fixed;
+  right: 20px;
+  top: 700px;
+}
+a .fa-arrow-up {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+.ex-link {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-left: 40px;
+  margin-top: 50px;
+  padding: 7px 10px;
+  text-decoration: none;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+.ex-link:hover {
+  background: rgb(85, 85, 85);
+  color: #fff;
+  transition: 0.4s;
+}
+.section2 {
+  background-image: url(about.jpg);
+  background-size: cover;
+  background-position: right;
+  border: 3px solid rgba(0, 0, 255, 0);
+}
+.section2 h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-size: 1.8em;
+  padding: 1em;
+}
+.section2 p {
+  padding: 1em;
+  color: #fff;
+  font-size: 20px;
+  background: rgb(0, 0, 0, 0.5);
+}
+
+.section3 {
+  background-image: url(education.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 3px solid rgba(0, 0, 255, 0);
+}
+.section3 h1 {
+  text-align: center;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-size: 1.8em;
+  padding: 1em;
+}
+.section3 ul {
+  padding: 1em;
+  color: #fff;
+  font-size: 20px;
+  list-style: none;
+}
+.section3 ul li {
+  padding: 1em;
+}
+.section4 {
+  background-image: url(work.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 3px solid rgba(0, 0, 255, 0);
+}
+.section4 h1 {
+  text-align: center;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-size: 1.8em;
+  padding: 1em;
+}
+.section4 ul {
+  padding: 1em;
+  color: #fff;
+  font-size: 20px;
+  list-style: none;
+  background: rgb(0, 0, 0, 0.5);
+}
+.section4 ul li {
+  padding: 1em;
+}
+@media only screen and (min-width: 800px) {
+  body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  header {
+    z-index: 1;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: bottom;
+  }
+  .nav-profile {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main {
+    width: 280%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    height: auto;
+  }
+  section {
+    width: 300vh;
+    height: 100vh;
+  }
+  section .section1 {
+    width: 70%;
+  }
+  .section1 .sec1btn {
+    align-items: center;
+    padding: 1em;
+    position: relative;
+    text-align: center;
+  }
+
+  section .section2 {
+    width: 70%;
+  }
+  section .section3 {
+    width: 70%;
+  }
+  section .section4 {
+    width: 70%;
+  }
+  header .nav {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0em;
+    background: none;
+  }
+  header .nav li {
+    margin-right: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  header .profile {
+    align-items: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  button {
+    display: none;
+  }
+}
