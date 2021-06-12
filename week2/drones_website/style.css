@@ -7,6 +7,8 @@
 }
 body {
   border: 3px solid red;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 main section .grid-floats {
@@ -41,6 +43,7 @@ main section .grid-floats li:hover {
 main section .grid-floats li img {
   width: 120px;
   height: 120px;
+  padding: 1em;
 }
 main section .grid-floats li:first-child {
   width: 480px;
@@ -54,4 +57,32 @@ main section .grid-floats li img:first-child {
 
 main section .grid-flex {
   background-color: teal;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+main section .grid-flex li {
+  margin: 10px 2px;
+  padding: 1em;
+  width: 240px;
+  height: 500px;
+  text-decoration: none;
+  overflow: scroll;
+}
+main section .grid-flex li:hover {
+  border: 3px solid gray;
+}
+main section .grid-flex :nth-child(13) {
+  margin-left: 2px;
+}
+main section .grid-flex li img {
+  width: 120px;
+  height: 120px;
+  padding: 1em;
+}
+main section .grid-flex p {
+  font-size: 14px;
+  text-align: justify;
+  padding: 1em;
 }
