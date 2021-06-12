@@ -99,7 +99,7 @@ u main section .grid-flex p {
 }
 @media (max-width: 600px) {
   body {
-   width: 600px;
+    width: 600px;
   }
   main section .grid-floats {
     padding: 1em;
@@ -119,7 +119,7 @@ u main section .grid-flex p {
     margin: 2em;
   }
 }
-@media (min-width:600px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1024px) {
   body {
     max-width: 1024;
   }
@@ -147,7 +147,9 @@ u main section .grid-flex p {
   main section .grid-flex li:first-child {
     width: 400px;
     height: 500px;
+  }
+  main section .grid-flex li:nth-child(2) {
+    width: 400px;
+    height: 500px;
+  }
 }
-main section .grid-flex li:nth-child(2) {
-  width: 400px;
-  height: 500px;
