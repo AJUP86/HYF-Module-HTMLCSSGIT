@@ -10,9 +10,18 @@ body {
   max-width: 1024px;
   margin: 0 auto;
 }
+h1 {
+  text-align: center;
+  padding: 1em;
+}
+h2 {
+  text-align: left;
+  padding: 2em;
+  background-color: grey;
+  color: #fff;
+}
 
 main section .grid-floats {
-  background-color: turquoise;
   text-align: center;
   list-style: none;
   padding: 1em;
@@ -39,10 +48,13 @@ main section .grid-floats li {
 }
 main section .grid-floats li:hover {
   border: 3px solid gray;
+  border-radius: 3%;
+  background-color: rgb(122, 140, 163);
+  transition: 0.2s;
+  color: #fff;
 }
 main section .grid-floats li img {
-  width: 120px;
-  height: 120px;
+  width: 80%;
   padding: 1em;
 }
 main section .grid-floats li:first-child {
@@ -50,17 +62,12 @@ main section .grid-floats li:first-child {
   height: 500px;
 }
 
-main section .grid-floats li img:first-child {
-  width: 200px;
-  height: 200px;
-}
-
 main section .grid-flex {
-  background-color: teal;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 1em;
 }
 main section .grid-flex li {
   margin: 10px 2px;
@@ -72,17 +79,43 @@ main section .grid-flex li {
 }
 main section .grid-flex li:hover {
   border: 3px solid gray;
+  border-radius: 3%;
+  background-color: rgb(122, 140, 163);
+  transition: 0.2s;
+  color: #fff;
 }
-main section .grid-flex :nth-child(13) {
-  margin-left: 2px;
+main section .grid-flex li:first-child {
+  width: 480px;
+  height: 500px;
 }
 main section .grid-flex li img {
-  width: 120px;
-  height: 120px;
+  width: 80%;
   padding: 1em;
 }
-main section .grid-flex p {
+u main section .grid-flex p {
   font-size: 14px;
   text-align: justify;
   padding: 1em;
+}
+@media (max-width: 600px) {
+  body {
+    width: 600px;
+  }
+  main section .grid-floats {
+    padding: 1em;
+  }
+  main section .grid-floats li {
+    width: 500px;
+    height: 500px;
+    margin: 2em;
+  }
+  main section .grid-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  main section .grid-flex li {
+    width: 500px;
+    height: 500px;
+    margin: 2em;
+  }
 }
