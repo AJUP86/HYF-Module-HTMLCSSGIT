@@ -79,7 +79,7 @@ main section .grid-flex li {
 main section .grid-flex li:hover {
   border: 3px solid gray;
   border-radius: 3%;
-  background-color: rgb(122, 140, 163);
+  background-color: gray;
   transition: 0.2s;
   color: #fff;
 }
