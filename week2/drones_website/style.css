@@ -99,18 +99,19 @@ u main section .grid-flex p {
 
 @media only screen and (max-width: 1024px) {
   body {
-    max-width: 1024;
+    max-width: 1024px;
   }
   main section .grid-floats li {
+    width: 25%;
     height: 500px;
     margin: 2em;
   }
   main section .grid-floats li:first-child {
-    width: 400px;
+    width: 38%;
     height: 500px;
   }
   main section .grid-floats li:nth-child(2) {
-    width: 400px;
+    width: 38%;
     height: 500px;
   }
   main section .grid-flex {
@@ -118,20 +119,20 @@ u main section .grid-flex p {
     justify-content: space-around;
   }
   main section .grid-flex li {
-    width: 250px;
+    width: 25%;
     height: 500px;
     margin: 2em;
   }
   main section .grid-flex li:first-child {
-    width: 400px;
+    width: 40%;
     height: 500px;
   }
   main section .grid-flex li:nth-child(2) {
-    width: 400px;
+    width: 40%;
     height: 500px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 790px) {
   body {
     width: 600px;
   }
