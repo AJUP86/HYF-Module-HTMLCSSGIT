@@ -49,7 +49,7 @@ main section .grid-floats li:hover {
   border: 3px solid gray;
   border-radius: 3%;
   background-color: gray;
-  transition: 0.2s;
+  transition: 0.8s;
   color: #fff;
 }
 main section .grid-floats li img {
