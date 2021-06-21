@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/uber-move-text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="style.css">
+    <title>UBER</title>
+</head>
+<body>
+    <nav class="nav-wraper black">
+        <a href="#" class="brand-logo logo-position">Uber</a>
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">What we offer</a></li>
+                <li><a href="#">How Uber works</a></li>
+                <li><a href="#">Global Citizenship</a></li>
+                <li><a href="#">newsroom</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">Working at Uber</a></li>
+            </ul>
+            <ul class="hide-on-med-and-down">
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Company<i class="material-icons right white-text center-align">arrow_drop_down</i></a></li>
+                <li><a href="#">Safety</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Information about COVID-19</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="#" class="hide-on-med-and-down">NL-NL</a></li>
+                <li><a href="#" class="hide-on-med-and-down">Products</a></li>
+                <li><a href="#" class="hide-on-med-and-down">login</a></li>
+                <li><a href="#" class="white black-text btn sign-up">Sign up</a></li>
+            </ul>
+    </nav>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        $( document ).ready(function(){
+            $(".dropdown-trigger").dropdown();
+
+        });
+    </script>
+</body>
+</html>
