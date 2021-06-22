@@ -52,7 +52,7 @@ textarea.materialize-textarea {
 }
 
 div.section2 {
-  background-image: url(DotCom_Update_U4B_bg_mobileD.png);
+  background-image: url(Uber-4-bussiness-large.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -87,6 +87,10 @@ div.section.section6 div.row a:hover {
 footer {
   height: 130vh;
 }
+.page-footer {
+  padding-left: 4rem;
+}
+
 footer i.fab.fa-facebook-square {
   font-size: 1em;
   padding: 1em;
@@ -123,7 +127,7 @@ footer i.fab.fa-instagram-square {
     width: 600x;
   }
   .card {
-    height: 50vw;
+    height: 40vw;
     margin-left: 7vw;
   }
   .row .col.l7 {
@@ -133,7 +137,7 @@ footer i.fab.fa-instagram-square {
     right: auto;
   }
   div.section2 {
-    background-image: url(DotCom_Update_U4B_bg_mobileD.png);
+    background-image: url(Uber-4-bussiness-large.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
