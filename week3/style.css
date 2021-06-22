@@ -19,3 +19,47 @@ ul .dropdown-content {
 ul.right a.sign-up {
   border-radius: 20px;
 }
+div.background {
+  margin: 1;
+  background-image: url(Earner_Home_bg_desktop2x.jpeg);
+  background-size: cover;
+  height: 100vh;
+}
+input:not([type]),
+input[type="text"]:not(.browser-default),
+input[type="password"]:not(.browser-default),
+input[type="email"]:not(.browser-default),
+input[type="url"]:not(.browser-default),
+input[type="time"]:not(.browser-default),
+input[type="date"]:not(.browser-default),
+input[type="datetime"]:not(.browser-default),
+input[type="datetime-local"]:not(.browser-default),
+input[type="tel"]:not(.browser-default),
+input[type="number"]:not(.browser-default),
+input[type="search"]:not(.browser-default),
+textarea.materialize-textarea {
+  background-color: lightgray;
+}
+.btn {
+  text-transform: none;
+}
+.card {
+  margin: 0;
+  padding-bottom: 2vw;
+}
+
+@media screen and (min-width: 1000px) {
+  section.section1 {
+    width: 50vw;
+  }
+  .card {
+    height: 50vw;
+    margin-left: 7vw;
+  }
+  .row .col.l7 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+}

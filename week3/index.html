@@ -37,6 +37,45 @@
                 <li><a href="#" class="white black-text btn sign-up">Sign up</a></li>
             </ul>
     </nav>
+    <div class=" background">
+        <section class=" section1">
+            <div class="row card">
+                <div class="col s12 l7 color">
+                    <ul class="tabs">
+                        <li class="tab col s4">
+                            <a href="#driving" class="black-text">Driving or delivering</a>
+                        </li>
+                        <li class="tab col s4">
+                            <a href="#food" class="black-text">Food</a>
+                        </li>
+                        <li class="tab col s4">
+                            <a href="#ride" class="black-text">Just drive</a>
+                        </li>
+                    </ul>
+                    <div class="col s12" id="driving">
+                        <p class="flow-text">Get behind the wheel and start earning</p>
+                        <p>Drive through the platform with the largest network of active passengers.</p>
+                        <a href="#" class="btn black white-text">Register as a driver</a>
+                        <a href="" class="btn white black-text">Learn more about driving and delivery</a>
+                    </div>
+                    <div class="col s12" id="food">
+                        <p class="flow-text">Discover delicious dishes</p>
+                        <p>Order from your favorite restaurants and have your food delivered.</p>
+                        <a href="#" class="btn black white-text">Order now</a>
+                        <a href="" class="btn white black-text">Do you have a restaurant? Become an Uber Eats partner</a>
+                    </div>
+                    <div class="col s12 form-input" id="ride">
+                        <p class="flow-text">Request a ride now</p>
+                        <input type="text" >
+                        <input type="text" >
+                        <a href="#" class="btn black white-text col s4 ">Apply now</a>
+                        <a href="" class="btn white black-text col s7 offset-s1">Plan for a later time</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -44,6 +83,7 @@
     <script>
         $( document ).ready(function(){
             $(".dropdown-trigger").dropdown();
+            $('.tabs').tabs();
 
         });
     </script>
