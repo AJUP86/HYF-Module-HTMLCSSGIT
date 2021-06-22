@@ -84,7 +84,30 @@ div.section.section6 div.row a {
 div.section.section6 div.row a:hover {
   font-weight: bold;
 }
+footer {
+  height: 130vh;
+}
+footer i.fab.fa-facebook-square {
+  font-size: 1em;
+  padding: 1em;
+}
 
+footer i.fab.fa-twitter-square {
+  font-size: 1em;
+  padding: 1em;
+}
+footer i.fab.fa-youtube-square {
+  font-size: 1em;
+  padding: 1em;
+}
+footer i.fab.fa-linkedin {
+  font-size: 1em;
+  padding: 1em;
+}
+footer i.fab.fa-instagram-square {
+  font-size: 1em;
+  padding: 1em;
+}
 @media screen and (min-width: 1000px) {
   section.section1 {
     width: 50vw;
