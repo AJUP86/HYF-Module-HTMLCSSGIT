@@ -1,6 +1,7 @@
 * {
   font-family: "Uber Move Text", sans-serif;
 }
+
 nav .brand-logo {
   left: 40px;
   font-size: 24px;
@@ -49,6 +50,7 @@ textarea.materialize-textarea {
   margin: 0;
   padding-bottom: 2vw;
 }
+
 div.section2 {
   background-image: url(DotCom_Update_U4B_bg_mobileD.png);
   background-size: 100% 100%;
@@ -56,10 +58,38 @@ div.section2 {
   background-position: center;
   height: 300px;
 }
+div.section.section4 {
+  padding: 20px;
+}
+div.section.section5 div.row {
+  height: 200px;
+}
+div.section.section5 h4 {
+  padding-bottom: 2rem;
+}
+div.section.section5 div.row a {
+  font-size: 25px;
+}
+div.section.section5 div.row a:hover {
+  font-weight: bold;
+}
+div.section.section6 div.row {
+  height: 200px;
+  padding-top: 8vw;
+  padding-left: 8vw;
+}
+div.section.section6 div.row a {
+  font-size: 30px;
+}
+div.section.section6 div.row a:hover {
+  font-weight: bold;
+}
 
 @media screen and (min-width: 1000px) {
   section.section1 {
     width: 50vw;
+    position: absolute;
+    top: 100px;
   }
   div.background {
     margin: 1;
@@ -85,5 +115,13 @@ div.section2 {
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
+  }
+  div.Section3 span.moving {
+    margin-left: 10vw;
+  }
+  div.section.section4 {
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    margin-right: 3vw;
   }
 }
